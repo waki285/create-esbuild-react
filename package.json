@@ -1,0 +1,29 @@
+{
+  "name": "@suzuneu/create-esbuild-react",
+  "version": "0.0.0",
+  "description": "Create ESBuild React App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waki285/create-esbuild-react.git"
+  },
+  "keywords": [
+    "esbuild"
+  ],
+  "author": "waki285 <suzuneu@suzuneu.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waki285/create-esbuild-react/issues"
+  },
+  "homepage": "https://github.com/waki285/create-esbuild-react#readme",
+  "dependencies": {
+    "enquirer": "^2.3.6",
+    "ora": "^6.1.2"
+  },
+  "bin": {
+    "create-esbuild-react": "index.mjs"
+  }
+}
