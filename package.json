@@ -1,6 +1,6 @@
 {
   "name": "@suzuneu/create-esbuild-react",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Create ESBuild React App",
   "main": "index.mjs",
   "scripts": {
@@ -28,5 +28,13 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "files": [
+    "static",
+    "static-git",
+    "static-js",
+    "static-ts",
+    "index.mjs",
+    "package.json"
+  ]
 }

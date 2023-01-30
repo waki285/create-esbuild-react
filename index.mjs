@@ -134,7 +134,7 @@ const main = async () => {
     await fs.writeFile(join(PATH, ".prettierrc"), JSON.stringify(prettierRC, null, 2));
   }
   if (git) {
-    await fs.cp(join(PWD, "static-git"), PATH, { recursive: true });
+    await fs.cp(join(PWD, "static-git", ".gitignore-sample"), join(PATH, ".gitignore"), { recursive: true });
   }
   spinner.succeed("Project created");
   if (git) {
