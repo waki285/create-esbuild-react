@@ -25,5 +25,8 @@
   },
   "bin": {
     "create-esbuild-react": "index.mjs"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
